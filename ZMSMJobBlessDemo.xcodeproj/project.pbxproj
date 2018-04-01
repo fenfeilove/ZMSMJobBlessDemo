@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		151754D8206F8F7B0069D0FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 151754D7206F8F7B0069D0FE /* AppDelegate.m */; };
+		151754DA206F8F7B0069D0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151754D9206F8F7B0069D0FE /* Assets.xcassets */; };
+		151754DD206F8F7B0069D0FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151754DB206F8F7B0069D0FE /* MainMenu.xib */; };
+		151754E0206F8F7B0069D0FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 151754DF206F8F7B0069D0FE /* main.m */; };
+		151754EE206F8FA00069D0FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 151754ED206F8FA00069D0FE /* main.m */; };
+		151754F6206F91D80069D0FE /* com.fenfei.ZMHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 151754EB206F8FA00069D0FE /* com.fenfei.ZMHelper */; };
+		151754FD206FD7040069D0FE /* ZMHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 151754FC206FD7040069D0FE /* ZMHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		151754F7206F91E50069D0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 151754CB206F8F7B0069D0FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 151754EA206F8FA00069D0FE;
+			remoteInfo = ZMHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		151754E9206F8FA00069D0FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		151754F5206F91CF0069D0FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				151754F6206F91D80069D0FE /* com.fenfei.ZMHelper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		151754D3206F8F7B0069D0FE /* ZMSMJobBlessDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMSMJobBlessDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		151754D6206F8F7B0069D0FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		151754D7206F8F7B0069D0FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		151754D9206F8F7B0069D0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		151754DC206F8F7B0069D0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		151754DE206F8F7B0069D0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		151754DF206F8F7B0069D0FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		151754E1206F8F7B0069D0FE /* ZMSMJobBlessDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZMSMJobBlessDemo.entitlements; sourceTree = "<group>"; };
+		151754EB206F8FA00069D0FE /* com.fenfei.ZMHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.fenfei.ZMHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		151754ED206F8FA00069D0FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		151754F2206F8FE60069D0FE /* ZMHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZMHelper-Info.plist"; sourceTree = "<group>"; };
+		151754F3206F90DF0069D0FE /* ZMHelper-Launchd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZMHelper-Launchd.plist"; sourceTree = "<group>"; };
+		151754F9206FD64A0069D0FE /* ZMHelperProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMHelperProtocol.h; sourceTree = "<group>"; };
+		151754FB206FD7040069D0FE /* ZMHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMHelper.h; sourceTree = "<group>"; };
+		151754FC206FD7040069D0FE /* ZMHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		151754D0206F8F7B0069D0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151754E8206F8FA00069D0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		151754CA206F8F7B0069D0FE = {
+			isa = PBXGroup;
+			children = (
+				151754D5206F8F7B0069D0FE /* ZMSMJobBlessDemo */,
+				151754EC206F8FA00069D0FE /* ZMHelper */,
+				151754D4206F8F7B0069D0FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		151754D4206F8F7B0069D0FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				151754D3206F8F7B0069D0FE /* ZMSMJobBlessDemo.app */,
+				151754EB206F8FA00069D0FE /* com.fenfei.ZMHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		151754D5206F8F7B0069D0FE /* ZMSMJobBlessDemo */ = {
+			isa = PBXGroup;
+			children = (
+				151754D6206F8F7B0069D0FE /* AppDelegate.h */,
+				151754D7206F8F7B0069D0FE /* AppDelegate.m */,
+				151754D9206F8F7B0069D0FE /* Assets.xcassets */,
+				151754DB206F8F7B0069D0FE /* MainMenu.xib */,
+				151754DE206F8F7B0069D0FE /* Info.plist */,
+				151754DF206F8F7B0069D0FE /* main.m */,
+				151754E1206F8F7B0069D0FE /* ZMSMJobBlessDemo.entitlements */,
+			);
+			path = ZMSMJobBlessDemo;
+			sourceTree = "<group>";
+		};
+		151754EC206F8FA00069D0FE /* ZMHelper */ = {
+			isa = PBXGroup;
+			children = (
+				151754F9206FD64A0069D0FE /* ZMHelperProtocol.h */,
+				151754FB206FD7040069D0FE /* ZMHelper.h */,
+				151754FC206FD7040069D0FE /* ZMHelper.m */,
+				151754ED206F8FA00069D0FE /* main.m */,
+				151754F2206F8FE60069D0FE /* ZMHelper-Info.plist */,
+				151754F3206F90DF0069D0FE /* ZMHelper-Launchd.plist */,
+			);
+			path = ZMHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		151754D2206F8F7B0069D0FE /* ZMSMJobBlessDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151754E4206F8F7B0069D0FE /* Build configuration list for PBXNativeTarget "ZMSMJobBlessDemo" */;
+			buildPhases = (
+				151754CF206F8F7B0069D0FE /* Sources */,
+				151754D0206F8F7B0069D0FE /* Frameworks */,
+				151754D1206F8F7B0069D0FE /* Resources */,
+				151754F5206F91CF0069D0FE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				151754F8206F91E50069D0FE /* PBXTargetDependency */,
+			);
+			name = ZMSMJobBlessDemo;
+			productName = ZMSMJobBlessDemo;
+			productReference = 151754D3206F8F7B0069D0FE /* ZMSMJobBlessDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		151754EA206F8FA00069D0FE /* ZMHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151754EF206F8FA00069D0FE /* Build configuration list for PBXNativeTarget "ZMHelper" */;
+			buildPhases = (
+				151754E7206F8FA00069D0FE /* Sources */,
+				151754E8206F8FA00069D0FE /* Frameworks */,
+				151754E9206F8FA00069D0FE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMHelper;
+			productName = ZMHelper;
+			productReference = 151754EB206F8FA00069D0FE /* com.fenfei.ZMHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		151754CB206F8F7B0069D0FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = fenfei;
+				TargetAttributes = {
+					151754D2206F8F7B0069D0FE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					151754EA206F8FA00069D0FE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 151754CE206F8F7B0069D0FE /* Build configuration list for PBXProject "ZMSMJobBlessDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 151754CA206F8F7B0069D0FE;
+			productRefGroup = 151754D4206F8F7B0069D0FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				151754D2206F8F7B0069D0FE /* ZMSMJobBlessDemo */,
+				151754EA206F8FA00069D0FE /* ZMHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		151754D1206F8F7B0069D0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151754DA206F8F7B0069D0FE /* Assets.xcassets in Resources */,
+				151754DD206F8F7B0069D0FE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		151754CF206F8F7B0069D0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151754E0206F8F7B0069D0FE /* main.m in Sources */,
+				151754D8206F8F7B0069D0FE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151754E7206F8FA00069D0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151754FD206FD7040069D0FE /* ZMHelper.m in Sources */,
+				151754EE206F8FA00069D0FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		151754F8206F91E50069D0FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 151754EA206F8FA00069D0FE /* ZMHelper */;
+			targetProxy = 151754F7206F91E50069D0FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		151754DB206F8F7B0069D0FE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				151754DC206F8F7B0069D0FE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		151754E2206F8F7B0069D0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		151754E3206F8F7B0069D0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		151754E5206F8F7B0069D0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T5WT4TMX66;
+				INFOPLIST_FILE = ZMSMJobBlessDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenfei.ZMSMJobBlessDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		151754E6206F8F7B0069D0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T5WT4TMX66;
+				INFOPLIST_FILE = ZMSMJobBlessDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenfei.ZMSMJobBlessDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		151754F0206F8FA00069D0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5WT4TMX66;
+				INFOPLIST_FILE = "$(SRCROOT)/ZMHelper/ZMHelper-Info.plist";
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"ZMHelper/ZMHelper-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"ZMHelper/ZMHelper-Launchd.plist",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenfei.ZMHelper;
+				PRODUCT_NAME = "com.fenfei.$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		151754F1206F8FA00069D0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5WT4TMX66;
+				INFOPLIST_FILE = "$(SRCROOT)/ZMHelper/ZMHelper-Info.plist";
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"ZMHelper/ZMHelper-Info.plist",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"ZMHelper/ZMHelper-Launchd.plist",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenfei.ZMHelper;
+				PRODUCT_NAME = "com.fenfei.$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		151754CE206F8F7B0069D0FE /* Build configuration list for PBXProject "ZMSMJobBlessDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151754E2206F8F7B0069D0FE /* Debug */,
+				151754E3206F8F7B0069D0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		151754E4206F8F7B0069D0FE /* Build configuration list for PBXNativeTarget "ZMSMJobBlessDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151754E5206F8F7B0069D0FE /* Debug */,
+				151754E6206F8F7B0069D0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		151754EF206F8FA00069D0FE /* Build configuration list for PBXNativeTarget "ZMHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151754F0206F8FA00069D0FE /* Debug */,
+				151754F1206F8FA00069D0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 151754CB206F8F7B0069D0FE /* Project object */;
+}
